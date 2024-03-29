@@ -55,4 +55,4 @@ bot.on('time', function() {
 bot.on('spawn',function() {
     connected=1;
 });
-
+client.login(process.env.TOKEN); //login bot using token
